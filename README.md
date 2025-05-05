@@ -41,8 +41,8 @@ The dataset includes text, categorical, and numeric fields. Preprocessing includ
 * Numerical features normalized using mean-std scaling
 * Feature importance visualized using SHAP and built-in model metrics:
 
-![SHAP Feature Importance](outputs/feature importance/shap_feature_importance.jpg)
-![Random Forest Importance](outputs/feature importance/rf_feature_importance.jpg)
+![SHAP Feature Importance](outputs/feature_importance/shap_feature_importance.jpg)
+![Random Forest Importance](outputs/feature_importance/rf_feature_importance.jpg)
 
 ---
 
@@ -52,8 +52,8 @@ The dataset includes text, categorical, and numeric fields. Preprocessing includ
 
 * Baseline model for reference
 
-![Confusion Matrix](outputs/confusion matrices/lr_confusion_matrix.jpg)
-![ROC Curve](outputs/roc curves/logistic_regression_roc_curves.jpg)
+![Confusion Matrix](outputs/confusion_matrices/lr_confusion_matrix.jpg)
+![ROC Curve](outputs/roc_curves/logistic_regression_roc_curves.jpg)
 
 ### Random Forest
 
