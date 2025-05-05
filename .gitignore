@@ -172,3 +172,27 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# === Project-specific ignores ===
+
+# Ignore only temporary or redundant artifacts
+*.npy
+*.joblib
+
+# Outputs folder (generated plots, etc.)
+outputs/
+!outputs/feature_importance/
+!outputs/confusion_matrices/
+!outputs/roc_curves/
+!outputs/distributions/
+!outputs/preprocessing/
+
+# Ignore predictions and raw dataset files (since on Hugging Face)
+test_predictions.csv
+*.csv
+*.tsv
+*.xlsx
+
+# VSCode & system metadata
+.vscode/
+.DS_Store
