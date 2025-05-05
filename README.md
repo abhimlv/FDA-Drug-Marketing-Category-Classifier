@@ -73,14 +73,14 @@ The dataset includes text, categorical, and numeric fields. Preprocessing includ
 
 * Initial dense model + improved model with Embedding layers
 
-![Training History (Basic)](outputs/dl_training_history.jpg)
+![Training History (Basic)](outputs/training_history/dl_training_history.jpg)
 ![Confusion Matrix](outputs/confusion_matrices/dl_confusion_matrix.jpg)
 
 ### Improved Deep Learning
 
 * Uses embedding layers, tuned architecture, better generalization
 
-![Training History](outputs/dl_improved_training_history.jpg)
+![Training History](outputs/training_history/dl_improved_training_history.jpg)
 ![Confusion Matrix](outputs/confusion_matrices/dl_improved_confusion_matrix.jpg)
 ![ROC Curve](outputs/roc_curves/deep_learning_improved_roc_curves.jpg)
 
@@ -132,4 +132,5 @@ The dataset includes text, categorical, and numeric fields. Preprocessing includ
 This project showcases a complete, reproducible pipeline for real-world regulatory data classification using both traditional ML and deep learning. It highlights preprocessing, feature importance, visual evaluation, and production-ready model deployment.
 
 🎯 **Deployed models and data are hosted on Hugging Face for public access and further experimentation.**
+
 📌 [Ready Tensor Publication](https://huggingface.co/datasets/abhimlv/FDA_Product_data/tree/main)
